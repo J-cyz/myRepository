@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="361" height="67"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2jp-Th-KMP">
+                    <rect key="frame" x="10" y="13.5" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Y58-dA-kGr"/>
+                        <constraint firstAttribute="width" constant="40" id="yI4-tb-Sei"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IpP-H8-4gV">
+                    <rect key="frame" x="311" y="13" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="216-eY-9Od"/>
+                        <constraint firstAttribute="height" constant="40" id="mg2-Do-TO8"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVY-Rj-ktE">
+                    <rect key="frame" x="55" y="23" width="251" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="IpP-H8-4gV" firstAttribute="leading" secondItem="AVY-Rj-ktE" secondAttribute="trailing" constant="5" id="3q7-B5-Ydv"/>
+                <constraint firstItem="AVY-Rj-ktE" firstAttribute="leading" secondItem="2jp-Th-KMP" secondAttribute="trailing" constant="5" id="5NV-sp-mDA"/>
+                <constraint firstItem="2jp-Th-KMP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="A5Q-UM-3wC"/>
+                <constraint firstItem="2jp-Th-KMP" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="R9e-Dv-8c0"/>
+                <constraint firstItem="IpP-H8-4gV" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Ywn-XA-jJL"/>
+                <constraint firstItem="AVY-Rj-ktE" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="bvd-no-nOp"/>
+                <constraint firstAttribute="trailing" secondItem="IpP-H8-4gV" secondAttribute="trailing" constant="10" id="jdE-Jw-1ZX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="27.5" y="-246.5"/>
+        </view>
+    </objects>
+</document>
